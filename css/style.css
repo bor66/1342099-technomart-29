@@ -1,0 +1,263 @@
+:root {
+    --basic-extra-dark: #293449;
+    --basic-dark:#32425C;
+    --basic-light: #F1F5F7;
+    --green-darker: #63A63E;
+    --green: #8ED78F;
+    --red: #EE3643;
+    --white: #FFFFFF;
+    --orange: #FFBF47;
+    --orange-lighter: #FFC047;
+    --yellow: #FFD180;
+    --yellow-lighter: #FFDA96;
+    --beige: #F9F5F0;
+    --grey-light: #A9A9A9;
+    --black: #000000;
+    --grey-extra-light : #F3F7F9;
+    --back-shadow: rgba(0, 0, 0, 0.25);
+    --blue: #3BBCE3;
+    --purple: #DC91D8;
+}
+
+.page-body {
+font-family: "Cuprum", "PT Sans", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: var(--black);
+background-color: var(--white);
+}
+
+.page-header {
+background-color: var(--basic-light);
+}
+
+.header-top {
+background-color: var(--basic-extra-dark);
+color: var(--white);
+}
+
+.order {
+background-color: var(--green-darker);
+}
+
+.header-contacts {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--basic-dark);
+}
+
+.contact-phone {
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 700;
+    color: var(--red);
+}
+
+.contact-address {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.link-container {
+    font-size: 21px;
+    line-height: 21px;
+    color: var(--black);
+}
+
+.login-link {
+   color: var(--white);
+}
+
+.registration-link {
+    color: var(--white);
+}
+
+.navigation {
+    background-color: var(--basic-dark);
+    color: var(--white);
+}
+
+.navigation-list {
+
+}
+
+.promo {
+    color: var(--white);
+}
+
+.slider {
+    background-image: url();
+}
+
+.slider-header {
+    background: var(--back-shadow);
+}
+
+.button {
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.slider-button-back {
+    background-image: url();
+}
+
+.slider-button-next {
+    background-image: url();
+}
+
+.promo-materials {
+    background: var(--orange) url() no-repeat;
+}
+
+.promo-links {
+    opacity: 0.3;
+}
+
+.promo-titles {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.slider-header-title {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.new {
+    background-color: var(--red);
+}
+
+.promo-tools {
+    background: var(--blue) url() no-repeat;
+}
+
+.promo-technic {
+    background: var(--purple) url() no-repeat;
+}
+
+.promo-delivery {
+    background: var(--orange-lighter) url() no-repeat;
+}
+
+.popular {
+    background-color: var(--beige);
+}
+
+.popular-catalog {
+    font-family: PT Sans;
+}
+
+.block-title {
+    color: var(--basic-dark);
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.product-title {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.price-old {
+    color: var(--grey-light);
+    text-decoration: line-through;
+}
+
+.price {
+    color: var(--red);
+    color: var(--white);
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+.brand-container {
+    background-color: var(--white);
+}
+
+.block-title-black {
+    color: var(--black);
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.block-text {
+    font-family: PT Sans;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.service-list {
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.service-item {
+    background-color: var(--basic-dark);
+    color: var(--white);
+}
+
+.delivery-list {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.services {
+    background-color: var(--basic-light);
+}
+
+.delivery {
+    background-color: var(--basic-light);
+}
+
+.delivery-image {
+    background: url() no-repeat;
+}
+
+.page-footer {
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--white);
+}
+
+.footer-top {
+    background-color: var(--basic-dark);
+}
+
+.footer-middle {
+    background-color: var(--basic-dark);
+}
+
+.footer-middle__links {
+    color: var(--yellow-lighter);
+    list-style-type: none;
+}
+
+.footer-bottom__links {
+    color: var(--yellow-lighter);
+}
+
+.copyrights {
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--white);
+}
+
+.social-button {
+    list-style-type: none;
+}
+
+.feedback-link {
+    color: var(--yellow-lighter);
+}
